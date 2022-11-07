@@ -1,13 +1,14 @@
-@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
-
-* {
-    box-sizing: border-box;
-    margin: 0;
-    padding: 0;
+body {
     background-color: #24252A;
+    margin-left: 210px;
+    margin-right: 210px;
+    margin-top: 0px;
 }
 
-li, a, button {
+
+li,
+a,
+button {
     font-family: sans-serif;
     font-weight: 500;
     font-size: 16px;
@@ -22,12 +23,14 @@ header {
     align-items: center;
     padding: 5px 10%;
     background-color: rgb(56, 56, 75);
+    border-radius: 0px 0px 5px 5px;
 }
 
 .logo {
     cursor: pointer;
-    margin-right: auto;
-    background-color:rgb(56, 56, 75);
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(56, 56, 75);
     height: 20px;
     width: auto;
 }
@@ -53,7 +56,7 @@ header {
 
 button {
     padding: 9px 25px;
-    background-color: rgba(0,136,169,1);
+    background-color: rgba(0, 136, 169, 1);
     border: none;
     border-radius: 50px;
     cursor: pointer;
@@ -62,5 +65,5 @@ button {
 }
 
 button:hover {
-    background-color: rgba(0,136,169,0.8);
+    background-color: rgba(0, 136, 169, 0.8);
 }
